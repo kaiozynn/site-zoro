@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "pirata";
+    src: url('../fonts/PirataOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0:#94f2e9;
+    --cor1:#3b7d8c;
+    --cor2:#1b2440;
+    --cor3:#f2dcc9;
+    --cor4:#8c6969;
+
+    --font-pirata:"pirata", cursive;
+
+    --fundo-tema-claro: #ffffff;
+    --fundo-tema-escuro: #1f1f1f;
+    --primeiro-plano-claro: #ffffff;
+    --primeiro-plano-escuro: #363636;
+    --texto-secundario-claro: #acacac;
+    --texto-secundario-escuro: #a7a6a6;
+    --texto-primario-claro: #262626;
+    --texto-primario-escuro: #eeeeee;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+    height: 250px;
+    min-width: 300px;
+}
+
+.wallpaper {
+    height: 300px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: var(--font-pirata);
+    font-size: 3.4em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.322);
+}
+
+header p {
+    text-align: center;
+    font-family: var(--font-pirata);
+    font-size: 1.6em;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.322);
+}
+
+nav {
+    padding: 7px;
+    min-width: 300px;
+    text-align: center;
+}
+
+nav a {
+    padding: 4px;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.esquerda {
+    display: inline;
+    position: absolute;
+    left: 0%;
+}
+
+.login {
+    display: inline;
+    position: absolute;
+    right: 0%;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-width: 300px;  
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.093);
+    padding: 20px;
+    text-align: justify;
+}
+
+.barco {
+    padding: 10px 0 10px 0;
+    width: 100%;
+}
+
+main h1 {
+    font-family: var(--font-pirata);
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.166);
+    font-size: 2.8em;
+    text-indent: 15px;
+}
+
+main h2 {
+    font-family: var(--font-pirata);
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.166);
+    font-size: 2.5em;
+    text-indent: 15px;
+}
+
+main h3 {
+    font-family: var(--font-pirata);
+    font-size: 2em;
+    text-indent: 15px;
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.166);
+}
+
+main p {
+    padding: 15px 0 15px 0;
+    line-height: 1.6em;
+    text-indent: 15px;
+    font-size: 1.3em;
+}
+
+main ul {
+    padding: 10px 0 10px 0;
+    list-style-position: inside;
+    line-height: 1.4em;
+    margin-left: 20px;
+    list-style-type: '\2714\00a0';
+    font-size: 1.2em;
+}
+
+ul > li {
+    padding-bottom: 10px;
+}
+
+.extra {
+    text-align: center;
+    text-indent: 0px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.mugiwaras {
+    height: 140px;
+    width: 120px;
+    background-color: white;
+    margin-top: 4px;
+    display: inline;
+    padding: 5px;
+}
+
+#personagens {
+    text-align: center;
+    margin: auto;
+    min-width: 300px;
+    max-width: 668px;
+    min-height: 336px;
+    max-height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.227);
+}
+
+#personagens img {
+    margin-top: 7px;
+}
+
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
