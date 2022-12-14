@@ -154,6 +154,10 @@ ul > li {
     border-top-left-radius: 12px;
 }
 
+.extra::after {
+    content: ' Navegue por Aqui';
+}
+
 .mugiwaras {
     height: 140px;
     width: 120px;
